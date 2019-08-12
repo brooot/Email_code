@@ -10,9 +10,9 @@ def email_send():
     msg = MIMEText(content,'plain','utf-8')
     msg['Subject'] = Header(subject, 'utf-8')
     msg['From'] = sender # 设置发送人
-    print(msg['From'])
-    msg['TO'] = receivers+','+sender # 设置接受人
-    print(msg['TO'])
+    # print(msg['From'])
+    msg['TO'] = receivers # 设置接受人
+    # print(msg['TO'])
     try:
         s = smtplib.SMTP_SSL('smtp.qq.com',465)
         print("连接邮件服务器成功！")
@@ -32,3 +32,4 @@ def email_send():
         print('发送失败:',e)
 
 email_send()
+t = input("按任意键退出")
