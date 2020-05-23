@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.header import Header
 def email_send():
     sender = '2802156052@qq.com'   #发送人邮箱
-    passwd = 'dosmtpsmljioddgc' #发送人邮箱授权码
+    passwd = '*******' #发送人邮箱授权码
     receivers = '1442704671@qq.com' #收件人邮箱
     subject = 'python 邮件测试' #主题
     content = 'test again'    #正文
