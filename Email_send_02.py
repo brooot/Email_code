@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 
 email_host = "smtp.qq.com"  # 邮箱地址
 email_user = "2802156052@qq.com"  # 发送者账号
-email_pwd = "dosmtpsmljioddgc"  # 发送者的密码
+email_pwd = "*******"  # 发送者的密码
 maillist = "1442704671@qq.com"
 
 with open("./Email_code/web.html", "rb") as f:
