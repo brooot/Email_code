@@ -5,7 +5,7 @@ from email.header import Header
  
 sender = '2802156052@qq.com'
 receivers = ['1442704671@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
-passwd = "dosmtpsmljioddgc"
+passwd = "bnnzfolyfoibddcj"
 #创建一个带附件的实例
 message = MIMEMultipart()
 message['From'] = Header("小火龙", 'utf-8')
