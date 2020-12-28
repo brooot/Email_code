@@ -6,6 +6,7 @@ email_user = "2802156052@qq.com"  # 发送者账号
 email_pwd = "bjypxmfmfjhydchj"  # 发送者的密码
 maillist = "1286253856@qq.com" # 接受者的邮箱
 
+
 with open("red_heart.html", "rb") as f:
     send_Content = f.read()
 
